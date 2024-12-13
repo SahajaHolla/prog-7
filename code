@@ -1,0 +1,10 @@
+$ git tag v1.0
+$ vi p7.txt
+$ touch p7.txt
+$ git add p7.txt
+$ git commit -m "7 prog"
+$ git log --oneline
+4717932 (HEAD -> master) 7 prog
+$ git tag v2.0 4717932
+$ git log --oneline
+4717932 (HEAD -> master, tag: v2.0) 7 prog
